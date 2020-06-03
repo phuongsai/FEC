@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Sign up Form</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="intro">
+
+      <h1 class="intro__header">Learn to code by watching others</h1>
+
+      <p class="intro__p">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+        great,
+        but understanding how developers think is invaluable.</p>
+
+    </div>
+
+    <div class="form">
+      <button class="form__btn--header">
+        <span>Try it free 7 days</span> then $20/mo. thereafter
+      </button>
+
+      <div class="form__container">
+        <form action="#">
+          <div class="form__group">
+            <input type="text" name="first_name" id="first_name" class="form__input" placeholder="First Name">
+            <img src="images/icon-error.svg" class="form__error--icon" id="error--icon_1">
+            <span class="form__error--msg" id="error--msg_1"></span>
+          </div>
+          <div class="form__group">
+            <input type="text" name="last_name" id="last_name" class="form__input" placeholder="Last Name">
+            <img src="images/icon-error.svg" class="form__error--icon" id="error--icon_2">
+            <span class="form__error--msg" id="error--msg_2"></span>
+          </div>
+          <div class="form__group">
+            <input type="email" name="email" id="email" class="form__input" placeholder="Email Address">
+            <img src="images/icon-error.svg" class="form__error--icon" id="error--icon_3">
+            <span class="form__error--msg" id="error--msg_3"></span>
+          </div>
+          <div class="form__group">
+            <input type="password" name="password" id="password" class="form__input" placeholder="Password">
+            <img src="images/icon-error.svg" class="form__error--icon" id="error--icon_4">
+            <span class="form__error--msg" id="error--msg_4"></span>
+          </div>
+
+          <button type="submit" class="form__btn--submit" onclick="submitForm();">Claim your free trial</button>
+
+        </form>
+
+
+        <p class="form__term">
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </p>
+
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="src/script.js"></script>
+  </main>
+</body>
+
+</html>
