@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Pricing Components</title>
+
+  <link rel="stylesheet" href="src/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="container__header">
+      <div class=" container__header--title">
+        <h1>Our Pricing</h1>
+      </div>
+      <div class="container__header--switch">
+        <span>Annually</span>
+        <label class="container__header--switch--btn">
+          <input type="checkbox">
+          <span class="toggle"></span>
+        </label>
+        <span>Monthly</span>
+      </div>
+    </header>
+
+    <main class="container__cards">
+      <div class="first-card">
+        <h2>Basic</h2>
+        <div class="container--price">
+          <span>&dollar;</span>
+          <span class="price-month hidden">19.99</span>
+          <span class="price-year">199.99</span>
+        </div>
+        <p>500 GB Storage</p>
+        <p>2 Users Allowed</p>
+        <p class="last-child">Send up to 3 GB</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="second-card">
+        <h2>Professional</h2>
+        <div class="container--price">
+          <span>&dollar;</span>
+          <span class="price-month hidden">24.99</span>
+          <span class="price-year">249.99</span>
+        </div>
+        <p>1 TB Storage</p>
+        <p>5 Users Allowed</p>
+        <p class="last-child">Send up to 10 GB</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="third-card">
+        <h2>Master</h2>
+        <div class="container--price">
+          <span>&dollar;</span>
+          <span class="price-month hidden">39.99</span>
+          <span class="price-year">399.99</span>
+        </div>
+        <p>2 TB Storage</p>
+        <p>10 Users Allowed</p>
+        <p class="last-child">Send up to 20 GB</p>
+        <button>Learn More</button>
+      </div>
+    </main>
+  </div>
+  <!-- JS -->
+  <script src="src/script.js"></script>
+</body>
+
+</html>
