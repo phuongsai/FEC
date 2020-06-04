@@ -27,7 +27,7 @@ function submitForm() {
     if (first_name === '') {
         error_icon_1.style.display = 'block';
         error_msg_1.style.display = 'block';
-        error_msg_1.innerHTML = 'First Name can not be empty!';
+        error_msg_1.innerHTML = 'First Name can not be empty';
         document.getElementById('first_name').style.border = '2px solid hsl(0, 100%, 74%)';
     } else {
         error_icon_1.style.display = 'none';
@@ -39,7 +39,7 @@ function submitForm() {
     if (last_name === '') {
         error_icon_2.style.display = 'block';
         error_msg_2.style.display = 'block';
-        error_msg_2.innerHTML = 'Last Name cannot be empty!';
+        error_msg_2.innerHTML = 'Last Name cannot be empty';
         document.getElementById('last_name').style.border = '2px solid hsl(0, 100%, 74%)';
     } else {
         error_icon_2.style.display = 'none';
@@ -51,12 +51,12 @@ function submitForm() {
     if (email === '') {
         error_icon_3.style.display = 'block';
         error_msg_3.style.display = 'block';
-        error_msg_3.innerHTML = 'Email Address cannot be empty!';
+        error_msg_3.innerHTML = 'Email Address cannot be empty';
         document.getElementById('email').style.border = '2px solid hsl(0, 100%, 74%)';
     } else if (!validateEmail(email)) {
         error_icon_3.style.display = 'block';
         error_msg_3.style.display = 'block';
-        error_msg_3.innerHTML = 'Look like this is not an email!';
+        error_msg_3.innerHTML = 'Look like this is not an email';
         document.getElementById('email').style.border = '2px solid hsl(0, 100%, 74%)';
     } else {
         error_icon_3.style.display = 'block';
@@ -68,7 +68,7 @@ function submitForm() {
     if (password === '') {
         error_icon_4.style.display = 'block';
         error_msg_4.style.display = 'block';
-        error_msg_4.innerHTML = 'Password cannot be empty!';
+        error_msg_4.innerHTML = 'Password cannot be empty';
         document.getElementById('password').style.border = '2px solid hsl(0, 100%, 74%)';
     } else {
         error_icon_4.style.display = 'block';
