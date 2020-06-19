@@ -8,8 +8,8 @@ $green: hsl(154, 59%, 51%)
 $blue: hsl(248, 32%, 49%)
 $dark-blue: hsl(249, 10%, 26%)
 $grayish-blue: hsl(246, 25%, 77%)
-$wallpaper-desktop: url('/images/bg-intro-desktop.png')
-$wallpaper-mobile: url('/images/bg-intro-mobile.png')
+$wallpaper-desktop: url('../images/bg-intro-desktop.png')
+$wallpaper-mobile: url('../images/bg-intro-mobile.png')
 $mobile: 375px
 $desktop: 1440px
 
@@ -165,6 +165,9 @@ main
     main
         display: flex
         flex-direction: column
+
+    body
+        background-image: $wallpaper-mobile
 
     .intro
         max-width: 80%

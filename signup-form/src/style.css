@@ -29,7 +29,7 @@
 body {
   font-family: Poppins, sans-serif;
   background-color: #ff7a7a;
-  background-image: url("images/bg-intro-desktop.png");
+  background-image: url("../images/bg-intro-desktop.png");
 }
 
 main {
@@ -215,6 +215,9 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  body {
+    background-image: url("../images/bg-intro-mobile.png");
   }
   .intro {
     max-width: 80%;

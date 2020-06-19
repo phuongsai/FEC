@@ -9,6 +9,7 @@ function validateEmail(email) {
 }
 
 function submitForm() {
+    event.preventDefault();
     first_name = document.getElementById('first_name').value;
     last_name = document.getElementById('last_name').value;
     email = document.getElementById('email').value;
