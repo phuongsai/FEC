@@ -29,7 +29,7 @@
 body {
   font-family: Poppins, sans-serif;
   background-color: #ff7a7a;
-  background-image: url("/images/bg-intro-desktop.png");
+  background-image: url("images/bg-intro-desktop.png");
 }
 
 main {
